@@ -1,0 +1,39 @@
+.wrapper{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 40rem;
+        min-height: 56rem;
+        padding: 3.2rem 4rem;
+        border-radius: .3rem;
+        box-sizing: border-box;
+        box-shadow: rgba(0, 0, 0, 0.1) 0 0 10px;
+        text-align: center;
+        .logo{
+            margin-bottom: 50px;
+            img{
+                width: 22rem;
+            }
+        }
+        .cat{
+            position: absolute;
+            left: -23rem;
+            bottom: .4rem;
+        }
+        .shadow{
+            position: absolute;
+            width: 20rem;
+            height: .6rem;
+            border-radius: 50%;
+            background-color: grey;
+            left: -15.5rem;
+            bottom: -0.2rem;
+        }
+    }
+}
